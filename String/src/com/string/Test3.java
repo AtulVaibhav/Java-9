@@ -54,8 +54,8 @@ public class Test3 {
 		System.out.println(str3==str4);
 		
 		//compareTo
-		String str5 = "apple";
-		String str6 = "APPLE";
+		String str5 = "apple";//97
+		String str6 = "APPLE";//65
 		System.out.println(str5.compareTo(str6));
 		
 	}
